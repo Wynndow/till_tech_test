@@ -1,3 +1,33 @@
+till = Till.new(Menu.new)
+till.create_order
+till.add(muffin)
+till.add(coffee)
+till.generate_receipt
+  returns receipt object.
+
+
+As a coffee shop guy,
+So I can add stuff up,
+I want to have a till.
+
+As a coffee shop guy,
+So I can get the correct price for items,
+I want the till to know the menu.
+
+As a coffee shop guy,
+So that I can differentiate between customers,
+I want to be able to generate a new order.
+
+As a coffee shop guy,
+So I can build a customers order,
+I want to be able to add items to it from the menu.
+
+As a coffee shop dude,
+So I can show a customer their total bill,
+I want to be able to generate a receipt.
+
+
+
 Till tech test
 ==============
 
@@ -18,7 +48,7 @@ This is what a sample receipt looks like:
 Version 1
 ---------
 
-Implement a system that contains the business logic to produce receipts similar to this, based on a `json` price list and test orders. A sample `.json` file has been provided with the list of products sold at this particular coffee shop. 
+Implement a system that contains the business logic to produce receipts similar to this, based on a `json` price list and test orders. A sample `.json` file has been provided with the list of products sold at this particular coffee shop.
 
 Here are some sample orders you can try - whether you use this information is up to you:
 
