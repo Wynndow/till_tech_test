@@ -6,8 +6,10 @@ describe 'Till Features' do
     expect(Till).to respond_to(:new)
   end
 
-  it 'know the menu' do
-
+  it 'knows the menu' do
+    menu = Menu.new
+    till = Till.new(menu)
+    expect(till.menu).to eq(menu)
   end
 
 end
