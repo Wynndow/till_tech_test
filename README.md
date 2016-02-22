@@ -12,7 +12,11 @@ I want to have a till.
 
 As a coffee shop guy,
 So I can get the correct price for items,
-I want the till to know the menu.
+I want the till to have a menu.
+
+As a till designer,
+So I can create tills that can use different menus,
+I want the menu to be read in from a separate file.
 
 As a coffee shop guy,
 So that I can differentiate between customers,
