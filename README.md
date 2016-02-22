@@ -19,10 +19,6 @@ So I can create tills that can use different menus,
 I want the menu to be read in from a separate file.
 
 As a coffee shop guy,
-So that I can differentiate between customers,
-I want to be able to generate a new order.
-
-As a coffee shop guy,
 So I can build a customers order,
 I want to be able to add items to it from the menu.
 

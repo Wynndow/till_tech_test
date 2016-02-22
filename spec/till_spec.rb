@@ -7,5 +7,13 @@ describe Till do
     expect(till.menu).to eq(menu)
   end
 
+  it { is_expected.to respond_to(:current_order) }
+
+  it 'adds items to the current order' do
+    item = {item: :price}
+    till.add(item)
+    expect(till.current_order).to eq([{item: :price}])
+  end
+
 
 end
